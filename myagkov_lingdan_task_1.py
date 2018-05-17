@@ -8,7 +8,6 @@ def is_palindrome(line):
     if line == rev_line:
         return True
     else:
-        answer = 'It is not a palindrome'
-    return False
+        return False
 
 print(is_palindrome(input()))
